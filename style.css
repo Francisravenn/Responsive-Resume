@@ -27,8 +27,7 @@ body{
     padding: 20px;
 }
 
-/*sa picture to na nilagay mo*/
-.picture{
+
     width: 150px;
     margin-top: 20px; 
     margin-bottom: 30px;
@@ -46,7 +45,7 @@ body{
 }
 
 
-/*another paragraph na nasa header*/
+
 .pB{
     font-size: 20px;
     color: #e9dbeb;
