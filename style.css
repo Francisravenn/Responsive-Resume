@@ -1,0 +1,226 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image:blue;
+    box-shadow: 20px auto;
+}
+
+
+.clear{
+    clear:both
+}
+
+
+.resume{
+    height: 1150px;
+    width: 800px;
+    background-color: white;
+    margin: 20px auto
+
+}
+
+
+.upper-part{
+    background-color: #04154d;
+    text-align: center;
+    padding: 20px;
+}
+
+/*sa picture to na nilagay mo*/
+.picture{
+    width: 150px;
+    margin-top: 20px; 
+    margin-bottom: 30px;
+    margin-right: 440px;
+}
+
+.pA{
+    font-family: 'Times New Roman', Times, serif;
+    color: #c7bbc9;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0px;
+    margin-top: -150px;   
+    margin-left: 290px;
+}
+
+
+/*another paragraph na nasa header*/
+.pB{
+    font-size: 20px;
+    color: #e9dbeb;
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: 300px;
+    margin-bottom: 30px;
+
+}
+
+.left-part{
+    height:881px;
+    width: 38%;
+    float: left;
+    background-color: #002e85;
+}
+
+.right-side {
+    width: 90%;
+
+}
+
+.verticalline{
+    border: 1px solid #c7c7c7;
+    height: 878px;
+   
+    display: flex;
+}
+
+
+.right-side .box {
+    flex: 1;
+    padding-left: 40px;
+    
+}
+.header{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color:  #c7c7d4;
+    text-align: start;
+    
+}
+
+.rorr{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color:  #04154d;
+
+   
+
+}
+
+.pC{
+    color: #09020a;
+    margin-bottom:   -5px;
+    padding: 5px;
+}
+
+.pD{
+    color:  #291c2d;
+    padding-top: 3px;
+    font-size: 17px;
+}
+
+.fa{
+    color: #4b0505;
+}
+
+.list{
+    margin-left: -20px;
+    margin-bottom: 0px;
+
+}
+
+.list li{
+    padding: 8px;
+    color:  #09020a;
+    text-align: start;
+    
+}
+
+.list li span{
+    color:#e9dbeb;
+
+}
+
+.pE{
+    color: #291c2d;
+    font-size: 17px;
+    padding-top: 3px;
+
+}
+   
+
+.pF{
+    color: #291c2d;
+    font-size: 17px;
+    padding-top: 3px;
+}
+
+@media(max-width: 600px) {
+    .resume {
+        width: 100%;
+        height: 840px;
+        text-align: center; /* Adjusting width for smaller screens */
+    }
+    .left-part {
+        width: 48%;
+        height:655px;/* Taking full width on smaller screens */
+    }
+    .right-side .box{
+        margin-left: -25px;
+         /* Adjusting padding for smaller screens */
+    }
+
+    .verticalline{
+        height: 655px;
+        display: flex;
+    }
+    .pD{
+        font-size: 9px;
+        padding: 2px;
+    }
+    .pB{
+        font-size: 12px;
+        margin-top: -30px;
+        margin-bottom: 5px;
+        margin-left: 100px;
+    }
+    .header{
+        font-size: 13px;
+        width:130px; 
+
+    }
+    .rorr{
+        font-size: 13px;
+    }
+    .pE{
+        font-size: 9px;
+    }
+    .pF{
+        font-size: 9px;
+    }
+
+    
+    .pA{
+        font-size: 15px;
+        font-weight: bold;
+        margin: 0px;
+        margin-top: -100px;   
+        margin-left: 100px;
+        margin-bottom: 50px;
+    }
+    .picture{
+        width: 105px;
+        margin-top: 30px;
+        height:95px ;
+    }
+    .pC{
+        font-size: 9px;
+        margin-bottom: 5px;
+        margin-left:3px ;
+        text-align: left;
+    }
+
+    .list li{
+        font-size: 9px;
+        padding: 7px;
+        
+    }
+    .box{
+        margin-left: -28px;
+    }
+
+}
